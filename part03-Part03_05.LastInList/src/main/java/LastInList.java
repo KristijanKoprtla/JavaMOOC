@@ -15,7 +15,11 @@ public class LastInList {
             }
 
             list.add(input);
+           
         }
+        int lastName = list.size() - 1;
+        System.out.println(list.get(lastName));
+        
 
     }
 }

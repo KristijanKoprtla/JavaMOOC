@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class FirstAndLast {
+public class OnTheList {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -16,8 +16,6 @@ public class FirstAndLast {
 
             list.add(input);
         }
-        System.out.println(list.get(0));
-        System.out.println(list.get(list.size() - 1));
 
     }
 }
