@@ -16,6 +16,8 @@ public class NullPointerExceptionProgram {
         lines.add("up with his quantum theory while studying...");
 
         int index = 0;
+        lines = null;
+        System.out.println(lines);
         while (index < lines.size()) {
             System.out.println(lines.get(index));
             index++;
